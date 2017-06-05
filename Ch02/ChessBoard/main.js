@@ -1,8 +1,8 @@
-str = "";
-size = 16;
+var str = "";
+var size = 16;
 
-for (row = 0; row < size; row++) {
-    for (col = 0; col < size; col++) {
+for (var row = 0; row < size; row++) {
+    for (var col = 0; col < size; col++) {
         if (row % 2 == 0) {
             if (col % 2 == 0) {
                 str += "#";
